@@ -1,0 +1,23 @@
+.white{
+    background-color: #fff;
+}
+.black{
+    background-color: black;
+}
+body{
+    background-color: yellow;
+}
+.baoboc{
+    width: 800px;
+    height: 500px;
+    margin: 35px auto 0;
+}
+
+.width{
+    width: 40px;
+}
+
+.table{
+    width: 100px;
+    height: 85px;
+}

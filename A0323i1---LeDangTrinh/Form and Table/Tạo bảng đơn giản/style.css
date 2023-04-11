@@ -1,0 +1,32 @@
+h1{
+    width: 900px;
+    text-align: center;
+    color:blue
+}
+th, td {
+    padding: 10px;
+}
+
+table {
+    width: 900px;
+}
+.hinhnen{
+    background-color: #FFFF00;
+}
+.bgr{
+    background-color: #FFCC00;
+}
+.khoangcach{
+    display: flex;
+    width: 900px;
+}
+.khoangcach span{
+    flex: 1
+}
+.kc{
+    display: flex;
+    justify-content: flex-end;
+}
+.khoangcach, .kc{
+    color: #6666FF
+}
