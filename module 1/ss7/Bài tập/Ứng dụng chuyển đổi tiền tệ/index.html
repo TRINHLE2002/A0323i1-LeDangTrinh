@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    form{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        margin: 40px 300px;
+        gap: 5px;
+    }
+</style>
+<body>
+    <h1>ỨNG DỤNG CHUYỂN ĐỔI TIỀN TỆ</h1>
+    <form action="#" method="get">
+        <span><b>Amount :</b></span><br>
+        <input type="number" id="Solieu"><br>
+
+        <span><b>From Currency :</b></span><br>
+        <select id="doivung1">
+        <option>Chọn Vùng</option>
+        <option value="1">VND</option>
+        <option value="2">USD</option>
+        </select><br>
+
+        <span><b>To Currency :</b></span><br>
+        <select id="doivung2">
+            <option>Chọn Vùng</option>
+            <option value="1">VND</option>
+            <option value="2">USD</option>
+        </select><br>
+
+        <button onclick="ChuyenDoiTienTe();">Convert</button>
+    </form>
+</body>
+<Script>
+    function ChuyenDoiTienTe(){
+        let Nhapgiatri = document.getElementById("Solieu").value;
+        let doivung1 = document.getElementById("doivung1").value;
+        let doivung2 = document.getElementById("doivung2").value;
+        if(doivung1 == doivung2){
+            alert(Nhapgiatri);
+        }
+        if(doivung1 == "1" && doivung2 == "2"){
+            alert(Nhapgiatri/24000)
+        }
+    }
+</Script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+    <h1>CACULATOR</h1>
+    <form action="#" method="get">
+        <input type="number" id="n1">
+        <input type="number" id="n2"><br><br>
+        <button onclick="addition();">addition(+)</button>
+        <button onclick="Subtraction()">Subtraction(-)</button>
+        <button onclick="Multiplication()">Multiplication(x)</button>
+        <button onclick="Division()">Division(/)</button>
+    </form>
+</body>
+<script>
+    function addition(){
+        let n1 = +document.getElementById("n1").value;
+        let n2 = +document.getElementById("n2").value;
+        alert("Kết quả là: " + (n1+n2));
+    }
+    function Subtraction(){
+        let n1 = +document.getElementById("n1").value;
+        let n2 = +document.getElementById("n2").value;
+        alert("Kết quả là: " + (n1-n2));
+    }
+    function Multiplication(){
+        let n1 = +document.getElementById("n1").value;
+        let n2 = +document.getElementById("n2").value;
+        alert("Kết quả là: " + (n1*n2));
+    }
+    function Division(){
+        let n1 = +document.getElementById("n1").value;
+        let n2 = +document.getElementById("n2").value;
+        alert("Kết quả là: " + (n1/n2));
+    }
+</script>
+</html>
