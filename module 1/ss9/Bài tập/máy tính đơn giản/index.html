@@ -8,7 +8,8 @@
 <form>
   <table border="2">
     <tr>
-    <td colspan="4"><label for="result"></label><input class ="display-box" type="text" id="result" disabled></td>
+    <td colspan="4"><label for="result"></label>
+      <input class ="display-box" type="text" id="result"  disabled></td>
     </tr>
     <tr>
       <td><input class = "button" type="button" value="1" onclick="display(1)" ></td>
@@ -36,10 +37,10 @@
     </tr>
   </table>
   <script>
-    var input = "";
+    var input = "0";
 
     function clearScreen() {
-      document.getElementById("result").value = "";
+      document.getElementById("result").value = "0";
     }
     function display(value){
       // input = input + value;

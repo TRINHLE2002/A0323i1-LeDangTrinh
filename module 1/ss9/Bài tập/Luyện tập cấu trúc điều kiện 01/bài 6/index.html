@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng nhận được</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập mức doanh số bán hàng: ");
+    let b;
+    let c;
+    if (a > 1000) {
+        b = a * (10 / 100);
+        c = a - (a - b);
+       alert("Tiền hoa hồng nhận được là: " + c);
+    } else if (a > 800) {
+        b = a * (7 / 100);
+        c = a - (a - b);
+        alert("Tiền hoa hồng nhận được là: " + c);
+    } else {
+        b = a * (5 / 100);
+        c = a - (a - b);
+       alert("Tiền hoa hồng nhận được là: " + c)
+    }
+</script>
+</body>
+</html>

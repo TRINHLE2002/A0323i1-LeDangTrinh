@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập vào số phút đã gọi trong 1 tháng: ");
+    let b;
+    if (a > 1000) {
+        b = a * 10000;
+        alert("Số tiền phải trả là: " + b);
+    } else if (a > 500) {
+        b = a * 15000;
+        alert("Số tiền phải trả là: " + b);
+    } else {
+        b = a * 20000;
+        alert("Số tiền phải trả là: " + b);
+    }
+</script>
+</body>
+</html>
