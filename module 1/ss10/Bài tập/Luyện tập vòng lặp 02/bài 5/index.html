@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let sotienbandau = +prompt("Nhập số tiền ban đầu: ");
+    let sothangchovay = +prompt("Nhập số tháng cho vay ");
+    let laixuathangthang = +prompt("Nhập lãi hàng tháng: ");
+    let lai = 0;
+    for(let i = 0; i<= sothangchovay; i++){
+        lai += (sotienbandau + laixuathangthang + i)/12;
+    }
+    document.write("lãi ngân hàng là: " + lai)
+   </script> 
+</body>
+</html>
