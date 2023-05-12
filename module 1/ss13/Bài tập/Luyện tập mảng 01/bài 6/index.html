@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let n =+(prompt("Nhập số lượng phần tử của mảng: "));
+        for (let i = 0; i < n; i++) {
+        arr[i] =+(prompt("Nhập phần tử thứ " + (i+1) + ": "));
+        }
+        let V = +(prompt("Nhập V:"));
+        
+        let isExist = arr.includes(V);
+       
+        if (isExist) {
+        document.write(V + " Nằm trong bảng số nguyên");
+        } else {
+        document.write(V + " Không tìm thấy trong bảng số nguyên");
+        }
+    </script>
+</body>
+</html>

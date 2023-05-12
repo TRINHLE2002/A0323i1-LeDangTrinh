@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ["1", "2","3","4","5","a","b","c","d","e"];
+        const size = arr.length;
+        let count = 0;
+        for(let i=0; i<size; i++){
+            if(!isNaN(parseInt(arr[i]))){
+                count++;
+            }
+        }
+        document.write("Số ký tự số có trong mảng là: " + count);
+       
+    </script>
+</body>
+</html>
