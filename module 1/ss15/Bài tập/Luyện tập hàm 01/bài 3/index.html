@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function thamSo(n,m){
+            if(n>m){
+                alert("Tham số thứ nhất lớn hơn tham số thứ hai");
+            }else{
+                alert("Tham số thứ hai lớn hơn tham số thứ nhất");
+            }
+        
+        }
+        var number1 = +prompt("Nhập vào tham số thứ nhất");
+        var number2 = +prompt("Nhập vào tham số thứ hai");
+        var result = thamSo(number1,number2);
+        document("Kết quả thứ nhất là : " + number1 + "<br>");
+        document("Kết quả thứ nhất là : " + number2 + "<br>");
+    </script>
+</body>
+</html>
