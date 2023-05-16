@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function  tinhDientich(n){
+            return Math.PI*(n*n);
+        }
+        function tinhChuVi(m){
+            return 2 * Math.Pi * m;
+        }
+        let dienTich = +prompt("Nhập diện tích hình tròn");
+        let result = tinhDientich(dienTich);
+        alert("Diện tích hình tròn là " + result);
+        let chuVi = +prompt("Nhập chu vi hình tròn");
+        let result2 = tinhChuVi("Chu vi hình tròn là: " + chuVi);
+        alert(result2);   
+    </script>
+</body>
+</html>
