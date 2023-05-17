@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="addproduct">
+    <button onclick="addproduct()">Add</button>
+    <p id="result"></p>
+    <p id="Soluong"></p>
+    
+      <script>
+        let productList = [
+        "Sony Xperia",
+        "Samsung Galaxy",
+        "Nokia 6",
+        "Xiaomi Redmi Note 4",
+        "Apple iphone 6s",
+        "Xiaomi Mi 5s Plus",
+        "Apple iphone 8 Plus",
+        "Fujitsu F-04E",
+        "Oppo A71"
+    ]
+    display(productList);
+
+
+    // Hàm thêm một sản phẩm
+    function addproduct(){
+        let addProduct = document.getElementById("addproduct").value;
+        if(addProduct != ""){
+            productList.push(addProduct);
+            document.getElementById("addproduct").value = "";
+            alert("Đã thêm một sản phẩm!")
+        }else {
+            alert("vui lòng nhập thông tin sản phẩm thêm vào!")
+        }
+        display();
+    }
+
+    // Hàm chỉnh sửa sản phẩm
+    function editProduct(index){
+        let newProductName = prompt("Nhập tên sản phẩm mới!");
+        if (newProductName !== null && newProductName !== "") {
+        productList[index] = newProductName;
+        display(productList);
+        alert("Đã sửa tên sản phẩm!");
+    } else {
+        alert("Vui lòng nhập tên sản phẩm mới!");
+    }
+    display();
+    }
+
+    // Hàm xóa sản phẩm
+    function deleteProduct(index){
+        let deleteProduct = confirm("Bạn có chắc chắn xóa sản phẩm này không!");
+        if(deleteProduct){
+            productList.splice(index, 1);
+            display(productList);
+        }
+    }
+    
+    // Hàm khởi tạo một table
+    function display() {
+        let tableString = '<table border="1">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Tên sản phẩm</th>\n' +
+            '        <th>Edit</th>\n' +
+            '        <th>Delete</th>\n' +
+            '    </tr>';
+
+        for (let i = 0; i < productList.length; i++) {
+            tableString += '  <tr>\n' +
+                '        <th>' + (i + 1) + '</td>\n' +
+                '        <td>' + productList[i] + '</td>\n' +
+                '        <td><button onclick="editProduct(' + i + ')">Edit</button></td>\n' +
+                '        <td><button onclick="deleteProduct(' + i + ')">Delete</button></td>\n' +
+                '    </tr>'
+        }
+        tableString += '</table>';
+    
+    document.getElementById("result").innerHTML = tableString;
+    document.getElementById("soLuong").innerHTML = "Số lượng sản phảm là : " + productList.length;
+    }
+      </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function isPalindrome(s) {
+        // Nếu chuỗi rỗng hoặc chỉ có một ký tự, nó là đối xứng
+        if (s.length <= 1) {
+            return true;
+        }
+        
+        // So sánh ký tự đầu và ký tự cuối của chuỗi
+        if (s[0] !== s[s.length - 1]) {
+            return false;
+        }
+        
+        // Đệ quy để kiểm tra các ký tự ở giữa chuỗi
+        return isPalindrome(s.substring(1, s.length - 1));
+        }
+        let result = prompt("Nhập vào chuỗi ký tự để kiểm tra");
+        let ketqua = isPalindrome(result);
+        alert("Số ký tự sau khi kiểm tra là: " + ketqua);
+    </script>
+</body>
+</html>
