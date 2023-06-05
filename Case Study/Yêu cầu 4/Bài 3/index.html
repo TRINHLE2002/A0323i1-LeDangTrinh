@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function commonCharacterCount(s1, s2) {
+        let commonCount = 0;
+        for (let i = 0; i < s1.length; i++){
+            const c = s1[i];
+            const index = s2.indexOf(c);
+            if (index !== -1) {
+            commonCount++;
+            s2 = s2.slice(0, index) + ' ' + s2.slice(index + 1);
+            }
+        }
+        return commonCount;
+}
+    let n = prompt("Nhập kí tự thứ nhất: ");
+    let n1 =  prompt("Nhập kí tự thứ nhất: ");
+    let result = commonCharacterCount(n,n1);
+    document.write(result);
+
+    </script>
+</body>
+</html>

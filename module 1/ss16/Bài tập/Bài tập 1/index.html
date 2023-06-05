@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="300"></canvas>
+    <script>
+        class Rectangle{
+            constructor(width, height){
+                this.width = width;
+                this.height = height;
+                this.area;
+                this.Perimeter;
+            }
+            getArea(){
+                return this.area = this.width * this.height;
+            }
+            getPerimeter(){
+                return this.Perimeter = 2 * (this.width + this.height);
+            }
+            drawRectangleOnCanvas(canvasId) {
+            let canvas = document.getElementById(canvasId);
+            let ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "rgb(255, 165, 0)";
+            ctx.fillRect(0, 0, this.width, this.height);
+        }
+        }
+        let rect = new Rectangle(200,100);
+        rect.drawRectangleOnCanvas("myCanvas");
+
+        // Thay đổi chiều dài và chiều rộng của hình chữ nhật
+        rect.width = 150;
+        rect.height = 80;
+
+        // In ra màn hình diện tích và chu vi của hình chữ nhật đó
+       alert("Diện tích hình chữ nhật là: " + rect.getArea()); // 12000
+       alert("Chu vi hình chữ nhật là: " + rect.getPerimeter()); // 460
+
+        // Vẽ lại hình chữ nhật với kích thước mới
+        rect.drawRectangleOnCanvas("myCanvas");
+    </script>
+</body>
+</html>

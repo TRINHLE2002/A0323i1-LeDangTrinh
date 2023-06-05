@@ -8,23 +8,43 @@
 </head>
 <body>
         <script>
-        function normalizeString(str) {
-        const words = str.trim().split(/\s+/);
+      function normalizeString(s) {
+  // Loại bỏ các dấu cách thừa
+  s = s.trim().replace(/\s+/g, ' ');
+
+  // Chuyển đổi chữ cái đầu tiên trong mỗi từ thành chữ in hoa
+  s = s.toLowerCase().replace(/(^|\s)\S/g, function(firstLetter) {
+    return firstLetter.toUpperCase();
+  });
+
+  return s;
+}
+
+function findLongestWord(s) {
+  // Tách xâu thành các từ
+  const words = s.split(/\s+/);
+
+  // Tìm từ có độ dài lớn nhất
+  const longestWord = words.reduce(function(longest, currentWord) {
+    return currentWord.length > longest.length ? currentWord : longest;
+  }, '');
+
+  return longestWord;
+}
+function main() {
+  const s = prompt("Nhập xâu ký tự:");
+
+  const normalizedS = normalizeString(s);
+
+  const longestWord = findLongestWord(s);
+
+  document.write("Xâu trước khi chuẩn hóa: " + s + "<br>");
+  document.write("Xâu sau khi chuẩn hóa: " + normalizedS + "<br>");
+  document.write("Từ dài nhất trong xâu: " + longestWord);
+}
+
+main();
         
-        const normalizedWords = words.map(function(word) {
-            return word.toLowerCase();
-        });
-        
-        for (let i = 0; i < normalizedWords.length; i++) {
-            const word = normalizedWords[i];
-            normalizedWords[i] = word.charAt(0).toUpperCase() + word.slice(1);
-        }
-        
-        return normalizedWords.join(' ');
-        }
-        const str = prompt("Nhập tên: ");
-        const normalizedStr = normalizeString(str);
-        alert(normalizedStr); 
         </script>
 </body>
 </html>

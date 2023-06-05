@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       class Temperature {
+    constructor(celsius){
+    if (celsius < -273) {
+            throw new Error("Nhiệt độ không thích hợp");
+    }
+    this.celsius = celsius;
+  }
+
+    getCelsius() {
+    return this.celsius;
+    }
+
+    setCelsius(celsius) {
+    if (celsius < -273) {
+      throw new Error("Nhiệt độ không thích hợp");
+    }
+    this.celsius = celsius;
+    }
+
+    getFahrenheit() {
+    return (this.celsius * 9/5) + 32;
+    }
+
+    getKelvin() {
+    return this.celsius + 273.15;
+  }
+    }
+    let temp = new Temperature(25);
+    alert("Nhiệt độ tính bằng Fahrenheit: " + temp.getFahrenheit());
+    alert("Nhiệt độ tính bằng kelvin: " + temp.getKelvin());
+    </script>
+</body>
+</html>

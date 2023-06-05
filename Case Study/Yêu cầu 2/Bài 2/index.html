@@ -9,10 +9,9 @@
 <body>
     <script>
         let h = +prompt("Nhập số chiều cao của tam giác rỗng ");
-        let line = "&nbsp&nbsp";
         for(let i = 0; i < h; i++){
             for(let j = 0; j < h - i; j++){
-                document.write(line);
+                document.write("&nbsp&nbsp");
             }
            for(let k = 0; k < 2*i - 1; k++){
                 document.write("*");

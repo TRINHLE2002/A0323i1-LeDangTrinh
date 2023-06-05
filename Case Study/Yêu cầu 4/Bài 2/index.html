@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function differentSymbolsNaive(s) {
+                let uniqueChars = new Set();
+                for (let i = 0; i < s.length; i++) {
+                uniqueChars.add(s[i]);
+                }
+                return uniqueChars.size;
+                }
+                
+                let n = prompt("Nhập đếm kí tự");
+                let result = differentSymbolsNaive(n);
+               document.write("Số kí tự sau khi tìm kiếm là: " + result); 
+    </script>
+</body>
+</html>
