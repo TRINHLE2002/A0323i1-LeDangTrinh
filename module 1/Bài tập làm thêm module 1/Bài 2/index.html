@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function createAbbreviation(str) {
+        let words = str.trim().split(/\s+/);
+        if (words.length === 1) {
+            return "Chuỗi chỉ có 1 từ nên không cần viết tắt";
+        }
+        let abbreviation = "";
+        for (let i = 0; i < words.length; i++) {
+            abbreviation += words[i][0].toUpperCase();
+        }
+        return abbreviation;
+        }
+        let n = prompt("Nhập chuỗi:");
+        let result = createAbbreviation(n);
+        alert(result);
+     
+    </script>
+</body>
+</html>

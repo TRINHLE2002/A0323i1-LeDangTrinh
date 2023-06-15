@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = +prompt("Nhập mảng từ bàn phím: ");
+        let array = [];
+        for (let i = 0; i < n; i++){
+            array.push(+prompt("Nhập phần tử thứ " + (i+1) + ":" ))
+        }
+        document.write("Danh sách các phần tử của mảng là : [" + array + "] <br>");
+        let sum = 0;
+        let count = 0;
+        for (let i = 0; i < n; i++) {
+        if (i % 3 === 0 && array[i] % 5 === 0) {
+            sum += array[i];
+            count++;
+        }
+        }
+        if (count > 0) {
+        let avg = sum / count;
+        document.write(`Giá trị trung bình của các phần tử chia hết cho 5 ở vị trí chia hết cho 3 là: ${avg.toFixed(2)}`);
+        } else {
+        document.write("Không có phần tử nào chia hết cho 5 ở vị trí chia hết cho 3 trong mảng.");
+        }
+    </script>
+</body>
+</html>
