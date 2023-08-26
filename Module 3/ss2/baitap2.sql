@@ -1,6 +1,7 @@
 create database if not exists ss2_bt2;
 use ss2_bt2;
 
+
 create table customer(
 cID int primary key not null,
 cName varchar(50),
@@ -30,3 +31,6 @@ primary key(oID, pID),
 foreign key (oID) references `order`(oID),
 foreign key (pID) references product(pID)
 );
+
+ALTER TABLE orderDetail
+MODIFY COLUMN odQTY float;
