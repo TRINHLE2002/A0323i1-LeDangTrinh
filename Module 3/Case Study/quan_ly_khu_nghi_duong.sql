@@ -172,6 +172,7 @@ insert into hop_dong(ma_hop_dong, ngay_lam_hop_dong, ngay_ket_thuc, tien_dat_coc
 (10,'2021-04-12','2021-04-14','0',10,3,5),
 (11,'2021-04-25','2021-04-25','0',2,2,1),
 (12,'2021-05-25','2021-05-27','0',7,10,1);
+insert into hop_dong(ma_hop_dong, ngay_lam_hop_dong, ngay_ket_thuc, tien_dat_coc, ma_nhan_vien, ma_khach_hang, ma_dich_vu) values (4,'2021-01-14','2021-01-18',100000,7,5,5);
 
 
 insert into hop_dong_chi_tiet(ma_hop_dong_chi_tiet,so_luong,ma_hop_dong,ma_dich_vu_di_kem) values (1,5,2,4),(2,8,2,5),(3,15,2,6),(4,1,3,1),(5,11,3,2),(6,1,1,3),(7,2,1,2),(8,2,12,2);
