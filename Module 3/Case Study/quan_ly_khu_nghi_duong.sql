@@ -191,7 +191,13 @@ and (dia_chi like '%Đà Nẵng' or dia_chi like '% Quảng Trị');
 -- 4. Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần.
 -- Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. 
 -- Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
-
+select K.ma_khach_hang, K.ho_ten,count(1) as so_lan_dat from hop_dong H
+ join khach_hang K on H.ma_khach_hang = K.ma_khach_hang
+ join loai_khach LK on Lk.ma_loai_khach = K.ma_loai_khach
+ where Lk.ten_loai_khach = 'Diamond'
+ group by K.ma_khach_hang, K.ho_ten, Lk.ten_loai_khach
+ order by so_lan_dat ;
+ 
 -- 5. 5.	Hiển thị ma_khach_hang, ho_ten, ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc, tong_tien
 -- (Với tổng tiền được tính theo công thức như sau: Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá là từ bảng dich_vu_di_kem, hop_dong_chi_tiet) 
 -- cho tất cả các khách hàng đã từng đặt phòng. 
@@ -262,3 +268,18 @@ group by month(ngay_lam_hop_dong);
 select h.ma_hop_dong,h.ngay_lam_hop_dong,h.ngay_ket_thuc,h.tien_dat_coc,coalesce(sum(h2.so_luong),0) as so_luong_dich_vu_di_kem
 from hop_dong h left join hop_dong_chi_tiet h2 on h.ma_hop_dong = h2.ma_hop_dong
 group by h.ma_hop_dong,h.ngay_lam_hop_dong,h.ngay_ket_thuc,h.tien_dat_coc;
+
+-- 11.	Hiển thị thông tin các dịch vụ đi kèm đã được sử dụng bởi những khách hàng có ten_loai_khach là “Diamond”
+-- và có dia_chi ở “Vinh” hoặc “Quảng Ngãi”.
+select dv.ma_dich_vu_di_kem,dv.ten_dich_vu_di_kem
+from dich_vu_di_kem dv
+join hop_dong_chi_tiet hct on dv.ma_dich_vu_di_kem = hct.ma_dich_vu_di_kem
+join hop_dong hd on hct.ma_hop_dong = hd.ma_hop_dong
+join khach_hang kh on hd.ma_khach_hang = kh.ma_khach_hang
+join loai_khach lk on kh.ma_loai_khach = lk.ma_loai_khach
+where lk.ten_loai_khach = 'Diamond' and (kh.dia_chi like '% Vinh' OR kh.dia_chi like '% Quảng Ngãi');
+
+-- 12.	Hiển thị thông tin ma_hop_dong, ho_ten (nhân viên), ho_ten (khách hàng), so_dien_thoai (khách hàng), ten_dich_vu, so_luong_dich_vu_di_kem (được tính dựa trên việc sum so_luong ở dich_vu_di_kem), tien_dat_coc 
+-- của tất cả các dịch vụ đã từng được khách hàng đặt vào 3 tháng cuối năm 2020 
+-- nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2021.
+
