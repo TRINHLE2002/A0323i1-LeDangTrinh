@@ -1,0 +1,141 @@
+.top-header{
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    background-color: #fff;
+}
+.container_head {
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: -38px;
+}
+.wrapper_head{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0px 0px;
+}
+.top-header .logo_item{
+    width: 381px;
+    margin-left: -206px;
+}
+.top-header .wrapper_head a{
+    color: #fff;
+    display: grid;
+    outline: none;
+}
+.logo_img{
+    max-width: 232px;
+    width: auto !important;
+}
+.right_item {
+    width: calc(100% - 175px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+.wrapper_menu_bar{
+    width: 100%;
+    z-index: 2;
+    transition: all 0.8s cubic-bezier(0.55, 0, 0.1, 1);
+    background: #fff;
+    position: fixed;
+    top: 111px;
+}
+.container_head_2{
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.wrapper_container_menu{
+    display: flex;
+}
+.nav-item .menu_item_a {
+    float: left;
+    padding: 22px 27px 22px;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #282828;
+    font-family: "roboto-M";
+    font-size: 30px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+#search_form {
+    margin-left: 21px;
+    margin-top: 34px;
+    border-radius: 30px;
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    box-sizing: border-box;
+    height: 35px;
+    background: #fff;
+    float: none;
+    width: 80%;
+    border: 1px solid #ddd;
+}
+.input-text {
+    border: none;
+    background: none;
+    float: left;
+    color: #000;
+    font-size: 14px;
+    width: 170px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 33px;
+    font-family: 'roboto';
+}
+.button_a {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 5px;
+    height: 35px;
+    width: 30px;
+}
+.button_a svg {
+    width: 14px;
+    height: 14px;
+}
+.chk_search_mobile_hide {
+    position: absolute;
+    top: 8px;
+    margin-top: 0;
+    right: -47px;
+    z-index: 9999;
+    transition: .5s;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+}
+.left-body {
+    width: 16.66%;
+    float: left;
+    height: 1200px;
+    background-color: gainsboro;
+    position: fixed;
+    left: 0;
+    top: 62px;
+}
