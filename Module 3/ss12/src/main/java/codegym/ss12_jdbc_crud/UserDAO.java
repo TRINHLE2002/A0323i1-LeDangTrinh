@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDAO implements IUserDAO{
-    private String URL = "jdbc:mysql://localhost:3306/demo";
+    private String URL = "jdbc:mysql://localhost:3306/ss12";
     private String USERNAME = "root";
-    private String PASSWORD = "trinh123456789";
+    private String PASSWORD = "123456789";
     private static final String INSERT = "insert into users" + "(name,email,country) values(?,?,?);";
     private static final String SELECT_BY_ID = " select * from users " +
             " where users.id = ?; ";
@@ -137,7 +137,9 @@ public class UserDAO implements IUserDAO{
     @Override
     public boolean updateUser(User user) throws SQLException {
         boolean rowUpdated;
-        try (Connection connection = getConnection(); PreparedStatement statement = connection.prepareStatement(UPDATE);) {
+        try (Connection connection = getConnection();
+             PreparedStatement statement = connection.prepareStatement(UPDATE);)
+        {
             statement.setString(1, user.getName());
             statement.setString(2, user.getEmail());
             statement.setString(3, user.getCountry());

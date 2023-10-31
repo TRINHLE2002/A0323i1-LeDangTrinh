@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890966bc-54c8-47b3-9857-1085df9b50dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/house.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ss11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/Controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/Repository/IproductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/Repository/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/Service/IproductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/Service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/java/codegym/ungdungquanlysanpham/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/webapp/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/webapp/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungQuanLySanPham/src/main/webapp/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/controller/ContractServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/controller/DetailContractServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/controller/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/controller/ServiceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/database/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/repository/i_repository/I_customer_repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/repository/repo_implement/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/service/i_service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/java/com/example/codegym/service/service_implement/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furuma/src/main/webapp/Customer/listCustomer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai1_HienThiLoiChao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai2_UngDungDocSoThanhChu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai3_ChuyenDoiTienTe.class" beforeDir="false" />
@@ -55,18 +49,84 @@
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Shape.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Square.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Module 2/SS6_KeThua/target/classes/com/mycompany/ss6_kethua/SS6_KeThua.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/Caculator/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/Caculator/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/Caculator/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/Caculator/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/Caculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/Caculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/Caculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/Caculator/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/build/classes/java/main/com/example/hienthidanhsachkhachhang/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/build/classes/java/main/com/example/hienthidanhsachkhachhang/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/build/classes/java/main/com/example/hienthidanhsachkhachhang/customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/build/classes/java/main/com/example/hienthidanhsachkhachhang/customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss10/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/7.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/CSDL_Furuma.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/AccommodationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/CustomerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/EducationDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/classes/java/main/codegym/ungdungquanlykhunghiduongfurama/model/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/libs/UngDungQuanLyKhuNghiDuongFurama-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/data/BaseRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/AccommodationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/EducationDegree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/java/codegym/ungdungquanlykhunghiduongfurama/model/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/Style/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/Style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/image/logo_furuma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study 2/src/main/webapp/service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/build/classes/java/main/codegym/ss12_jdbc_crud/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/build/classes/java/main/codegym/ss12_jdbc_crud/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/build/libs/ss12_JDBC_CRUD-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/build/libs/ss12_JDBC_CRUD-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/src/main/java/codegym/ss12_jdbc_crud/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/src/main/java/codegym/ss12_jdbc_crud/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Case Study 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UngDungQuanLySanPham" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.63" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -95,10 +155,10 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="aef472db-7ea8-46d2-8541-f51a263c30b2" />
       </server-settings>
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="60411" />
@@ -177,6 +237,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696247571474</updated>
       <workItem from="1696247572677" duration="84000" />
+      <workItem from="1696848856332" duration="16000" />
+      <workItem from="1697633794226" duration="32000" />
     </task>
     <servers />
   </component>

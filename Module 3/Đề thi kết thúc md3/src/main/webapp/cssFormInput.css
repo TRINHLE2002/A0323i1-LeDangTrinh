@@ -1,0 +1,29 @@
+/* Đặt hình ảnh nền */
+body {
+    background-image: url('img.png');
+    background-size: cover; /* Đảm bảo hình ảnh nền bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Giữ hình ảnh nền cố định khi cuộn trang */
+}
+
+/* Kiểu dáng biểu mẫu và các thành phần bên trong */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền semi-trong suốt */
+    padding: 20px;
+    border-radius: 10px; /* Bo tròn viền */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Đổ bóng */
+}
+
+/* Kiểu dáng các thành phần của biểu mẫu */
+.form-label, .form-control {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    font-size: 18px;
+}
+
+.btn-secondary {
+    font-size: 18px;
+}

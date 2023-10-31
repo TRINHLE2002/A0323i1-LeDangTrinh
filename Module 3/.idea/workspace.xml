@@ -2,10 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fded3b-af78-4e09-b6ea-96cef03e7b45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ss10/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai1_HienThiLoiChao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai2_UngDungDocSoThanhChu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/BaiTap/Bai3_ChuyenDoiTienTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/bmi_calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/day_of_month.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/leap_year_calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/linear_equation_resolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/operator_expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/ThucHanh/variable_dataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS1_Introduction_to_Java/target/classes/java/util/String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS4_ClassAndOOP/target/classes/BaiTap/BT1_QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS4_ClassAndOOP/target/classes/BaiTap/BT2_StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS4_ClassAndOOP/target/classes/BaiTap/BT3_Fan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS4_ClassAndOOP/target/classes/ThucHanh/TH1_LopHinhChuNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS4_ClassAndOOP/target/classes/com/mycompany/ss4_classandoop/SS4_ClassAndOOP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/BaiTap/BT1/BT2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/BaiTap/BT1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/BaiTap/BT1/TestCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/ThucHanh/TH1_StaticMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/ThucHanh/TH2_StaticProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS5_AccessModifier_staticMethod_staticProperty/target/classes/com/mycompany/ss5_accessmodifier_staticmethod_staticproperty/SS5_AccessModifier_staticMethod_staticProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/BT3/MovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/BT3/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/BT3/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/Point3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/BT2/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/BaiTap/BT1/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/ThucHanh/TH1/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module 2/SS6_KeThua/target/classes/com/mycompany/ss6_kethua/SS6_KeThua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Case Study 2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,6 +73,7 @@
       <updated>1695889177407</updated>
       <workItem from="1695889178797" duration="147000" />
       <workItem from="1695889611507" duration="40000" />
+      <workItem from="1696782035257" duration="30000" />
     </task>
     <servers />
   </component>
